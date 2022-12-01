@@ -14,4 +14,11 @@ export default defineConfig({
   build: {
     outDir: 'docs',
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "@/assets/scss/global.scss";`
+      }
+    }
+  },
 })

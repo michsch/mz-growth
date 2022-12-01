@@ -1,0 +1,64 @@
+body {
+  font-size: $font-size-root-px;
+  letter-spacing: 0.005rem;
+  font-family: $font-family-content;
+  font-weight: $font-weight-content;
+  color: var(--color-body-text);
+  text-align: left;
+  background-color: var(--color-body-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-headline;
+}
+
+h1 {
+  font-size: $h1-font-size-percent;
+  line-height: $h1-line-height-scale;
+}
+
+h2 {
+  font-size: $h2-font-size-percent;
+  line-height: $h2-line-height-scale;
+}
+
+h3 {
+  font-size: $h3-font-size-percent;
+  line-height: $h3-line-height-scale;
+}
+
+h4 {
+  font-size: $h4-font-size-percent;
+  line-height: $h4-line-height-scale;
+}
+
+h5 {
+  font-size: $h5-font-size-percent;
+  line-height: $h5-line-height-scale;
+}
+
+h6 {
+  font-size: $h6-font-size-percent;
+  line-height: $h6-line-height-scale;
+}
+
+p {
+  font-size: 100%;
+  line-height: $std-line-heigth-scale;
+  margin: 0 0 $std-margin-em 0;
+  color: var(--color-text);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+strong,
+b {
+  font-weight: 800;
+}

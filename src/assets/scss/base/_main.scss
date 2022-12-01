@@ -1,0 +1,20 @@
+@media all {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    overflow-y: scroll;
+  }
+
+  html * {
+    font-size: 100%;
+  }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
