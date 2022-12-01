@@ -4,6 +4,8 @@ $color-dark: #2c2c2c;
 $color-light: $color-white;
 
 :root {
+  --color-black: #{$color-black};
+  --color-white: #{$color-white};
   --color-dark: #{$color-dark};
   --color-light: #{$color-light};
 

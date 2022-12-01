@@ -4,6 +4,7 @@ import deviceClosedHigh from '@/assets/images/Samsung_Galaxy_Z_Flip3_5G_SM-F711B
 import deviceOpened from '@/assets/images/Samsung_Galaxy_Z_Flip3_5G_SM-F711B_Phantom_Black_315_Table_Top_Logoscreen_RGB_500.png'
 import deviceOpenedHigh from '@/assets/images/Samsung_Galaxy_Z_Flip3_5G_SM-F711B_Phantom_Black_315_Table_Top_Logoscreen_RGB_1000.png'
 import ccLogo from '@/assets/images/CCLogo.png'
+import providerLogo from '@/assets/images/network-40.svg'
 </script>
 
 <template>
@@ -26,6 +27,9 @@ import ccLogo from '@/assets/images/CCLogo.png'
         </figure>
         <figure class="image-container image-container__xmas">
           <img :src="ccLogo" alt="">
+        </figure>
+        <figure class="image-container image-container__provider-logo">
+          <img :src="providerLogo" alt="">
         </figure>
       </header>
       <section>
@@ -99,6 +103,19 @@ a {
     height: auto;
 
     animation-name: xmas-fly-in;
+  }
+
+  &__provider-logo {
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+
+    border: 2px solid var(--color-white);
+    border-radius: 50%;
+    overflow: hidden;
   }
 
   img {
